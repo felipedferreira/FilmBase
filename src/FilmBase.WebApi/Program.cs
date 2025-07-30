@@ -22,7 +22,6 @@ namespace FilmBase.WebApi
                 app.UseSwaggerUI();
             }
             
-            // Enforces HTTPS
             app.UseHttpsRedirection();
 
             var summaries = new[]

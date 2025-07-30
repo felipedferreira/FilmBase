@@ -1,0 +1,15 @@
+{
+  "version": "1",
+  "name": "FilmBase",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ],
+  "size": 0,
+  "filesCount": 0,
+  "clientCertificates": {
+    "enabled": true,
+    "certs": []
+  }
+}

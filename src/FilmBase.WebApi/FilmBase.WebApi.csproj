@@ -23,4 +23,8 @@
       <ProjectReference Include="..\FilmBase.Infrastructure\FilmBase.Infrastructure.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Models\Responses\" />
+    </ItemGroup>
+
 </Project>
