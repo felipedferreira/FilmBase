@@ -14,23 +14,6 @@ FilmBase.sln
 └── Infrastructure            // External implementations (e.g., DB, email, logging)
 ```
 
-graph TD
-Domain["Domain"]
-AppAbstractions["Application.Abstractions"]
-Application["Application"]
-Infrastructure["Infrastructure"]
-WebApi["WebApi"]
-
-    Application --> Domain
-    Application --> AppAbstractions
-
-    Infrastructure --> Domain
-    Infrastructure --> AppAbstractions
-
-    WebApi --> Application
-    WebApi --> AppAbstractions
-    WebApi --> Infrastructure
-
 
 ---
 
@@ -136,7 +119,7 @@ WebApi["WebApi"]
 
 ```mermaid
 graph TD
-    Domain -->|No Dependencies| .
+    Domain
     Application --> Domain
     Application --> Application.Abstractions
     Infrastructure --> Domain
