@@ -1,0 +1,7 @@
+﻿services:
+  filmbase.webapi:
+    image: filmbase.webapi
+    build:
+      context: .
+      dockerfile: src/FilmBase.WebApi/Dockerfile
+
